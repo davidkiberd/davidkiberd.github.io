@@ -1,28 +1,32 @@
 h1{
-	color:black;
+	color: #86c232;
 	text-align: center;
 }
 h2{
-	color:black;
+	color: #86c232;
+	text-align: center;
+}
+h6{
+	color: #6b6e70;
 	text-align: center;
 }
 p{
-	color:white;
+	color:#f8f0e3;
 	font-family:Arial;
 	text-align: center;
 }
 ul{
-	color:white;
+	color:#f8f0e3;
 	font-family:Arial;
 	text-align: center;
 	list-style-type: square;
 }
 body{
-	background:grey;
+	background: #222629;
 	text-align: center;
 }
 .shadow{
-	text-shadow: 2px 2px green;
+	text-shadow: 2px 2px #474b4f;
 }
 
 .bold{
@@ -30,43 +34,41 @@ body{
 	font-size: 100%;
 }
 
-.box1{
+.educationBox{
 	flex-basis:33%;
 }
 
-.box2{
+.experienceBox{
 	flex-basis:33%;
 }
 
-.box3{
+.skillsBox{
 	flex-basis:33%;
 }
 
 .container2 div{
-	border:5px #ccc solid;
+	border:5px #474b4f solid;
 	padding: 5px;
-	margin: 20px;
+	margin: 10px
 }
 
 .container1{
-	border:5px #ccc solid;
+	border:5px #474b4f solid;
 	padding: 5px;
-
 }
 
-@media(min-width:760px){
+@media(min-width: 768px){
 	.container2{
 		display:flex;
 		justify-content:space-around;
 	}
 }
 .container{
-	padding: 30px;
-	margin: 5px;
+	padding: 15px;
 }
 .link{
-	color:green;
+	color: #61892f;
 }
 .row{
-
+	padding:15px;
 }
