@@ -34,41 +34,25 @@ body{
 	font-size: 100%;
 }
 
-.educationBox{
-	flex-basis:33%;
-}
-
-.experienceBox{
-	flex-basis:33%;
-}
-
-.skillsBox{
-	flex-basis:33%;
-}
-
-.container2 div{
-	border:5px #474b4f solid;
-	padding: 5px;
-	margin: 10px
-}
-
-.container1{
-	border:5px #474b4f solid;
-	padding: 5px;
-}
-
-@media(min-width: 768px){
-	.container2{
-		display:flex;
-		justify-content:space-around;
-	}
-}
 .container{
 	padding: 15px;
 }
+
 .link{
 	color: #61892f;
 }
+
 .row{
 	padding:15px;
+	justify-content: space-between;
+}
+
+.col-lg-12{
+	border:5px #474b4f solid;
+	padding: 5px;
+}
+
+.col-lg-3{
+	border:5px #474b4f solid;
+	padding: 5px;
 }
