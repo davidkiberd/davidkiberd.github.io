@@ -1,0 +1,16 @@
+body{
+  background-color: #d4e09b;
+  font-family: Helvetica;
+}
+
+h1{
+  color:#a44a3f;
+  text-align: center;
+}
+
+button{
+  color: #f6f4d2;
+  background-color: #a44a3f;
+  margin: 0 auto;
+  display: block;
+}
