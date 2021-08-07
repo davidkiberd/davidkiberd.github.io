@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  font-family:helvetica;
+  letter-spacing: 2px;
+  line-height: 25px;
+  background-color: #25bdf5;
+}
+
+p{
+  color:white;
+}
+h1{
+  color:#f6c101;
+}
