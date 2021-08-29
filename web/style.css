@@ -1,0 +1,167 @@
+body{
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  text-decoration: none;
+  padding: 25px 10px;
+  display:block;
+  color: #f2f2f2;
+}
+
+li a:hover {
+  color: #80ffaa;
+}
+
+form{
+  text-align: center;
+  width: 100%;
+}
+
+textarea{
+  resize: none;
+  width: 50%;
+  height: 100px;
+}
+
+#nameContact {
+  width: 50%;
+}
+
+#emailContact {
+  width: 50%;
+}
+
+#phoneContact {
+  width: 50%;
+}
+
+h3{
+  text-align: center;
+  color: #0f0f0f;
+}
+
+#contactText {
+  text-align: center;
+  color: #0f0f0f;
+}
+
+#landingLogo {
+  width:100%;
+  height: auto;
+}
+
+#aboutParagraph {
+  margin: 25px;
+  color: #0f0f0f;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.gallery {
+  border: 3px solid #0f0f0f;
+}
+
+div.gallery:hover {
+  border: 3px solid #80ffaa;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.resizeGallery {
+  padding: 5px 9px;
+  width: 33.33%;
+  float:left;
+}
+
+@media only screen and (max-width: 960px) {
+  .resizeGallery {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .resizeGallery {
+    width: 100%;
+  }
+}
+
+#footer{
+  text-align: center;
+  font-size: 80%;
+  font-style: italic;
+}
+
+#galleryParagraph {
+  text-align: center;
+  font-size: 90%;
+}
+
+#hubLocator{
+  text-align: center;
+}
+
+#locator{
+  text-align: center;
+  width: 100%;
+}
+
+.buttons{
+  margin: 10px;
+  width: 20%;
+  height:atuo;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+#hubParagraph{
+  text-align: center;
+}
+
+#hideParagraph{
+  font-size: 10%;
+  color: #f0f0f0
+}
+
+.buttons:hover{
+  color: #80ffaa;
+}
+
+.formButton{
+  color: #f0f0f0;
+  background-color: #0f0f0f;
+}
+
+.formButton:hover{
+  color: #80ffaa;
+}
+
+#hubAppend{
+  text-align: center;
+  color: #0f0f0f;
+  font-weight: bold;
+}

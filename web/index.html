@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title> Mind Over Matter </title>
+    <link rel="icon" href="images/favicon.ico"/><!--Code to have a favicon in the browser tab-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--this implements twitter bootstrap, a framework for responsive design--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--this implements twitter bootstrap, a framework for responsive design--->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <ul><!--This is the code to create the navigation bar-->
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#hubLocator">Hub Locator</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <br id = "home">
+    <br>
+
+    <img id = "landingLogo" src="images/mindOverMatter.jpeg" alt="Mind Over Matter Logo">
+
+    <p id = "about"></p>
+    <br>
+    <br>
+    <br>
+    <h3>ABOUT US</h3>
+    <p id = "aboutParagraph"> At Mind Over Matter, we aim to promote positive mental health and self care practices for all our clients and followers.
+      We strive to bring awareness to mental health disorders and erase the stigma surrounding them by supporting people who face these challenges on a daily basis.
+      We do this by encouraging conversation on the topic and proactive measures to help navigate the day to day struggles of suffering with mental health ilnesses.
+      <br>
+      <br>
+      Mind Over Matter was founded in 2021 and has been supported through government grants since our inception. We are a not for profit organisation and are well reknowned within the sector in our short lifetime.
+    </p>
+    <p id = "gallery"></p>
+    <p id = "hideParagraph">placeholder</p><!--I included this the visually improve the acnhor point of the gallery-->
+    <br>
+    <br>
+    <br>
+    <h3>GALLERY</h3>
+  <div>
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mindYourMind.jpg" alt="Mind Your Mind" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mentalHealth3.jpg" alt="Mental Health Socialise" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mentalHealth2.jpg" alt="Mental Health Give" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mentalHealth.jpg" alt="Mental Health Exercise" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mentalHealth5.jpg" alt="Mental Health Hobbies" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="resizeGallery">
+      <div class="gallery">
+        <img src="images/mentalHealth4.jpg" alt="Mental Health Meditate" width="600" height="400">
+      </div>
+    </div>
+
+    <div class="clearfix"></div><!-- This came from w3schools, more code in style.css relating to this. It is used to make sure the elements are showing correctly horizontally https://www.w3schools.com/howto/howto_css_clearfix.asp-->
+
+    <div style="padding:10px;">
+
+    </div>
+  </div>
+    <p id = "hubLocator"></p>
+    <br>
+    <br>
+    <br>
+
+    <h3>HUB LOCATOR</h3>
+    <p id = "hubParagraph">Select your province below to see where your nearest Mind Over Matter hub is.</p>
+    <div id = "locator">
+    <button class = "buttons" type="button" onclick="leinster()">Leinster</button>
+    <button class = "buttons" type="button" onclick = "munster()">Munster</button>
+    <button class = "buttons" type="button" onclick = "ulster()">Ulster</button>
+    <button class = "buttons" type="button" onclick = "connaught()">Connaught</button>
+    </div>
+    <br>
+    <p id = "hubParagraph">Your nearest Mind Over Matter hub is: </p><br>
+    <p id = "hubAppend"></p>
+
+    <br>
+    <br>
+    <br>
+
+    <h3 id = "contact"> CONTACT US </h3>
+    <p id = "contactText">Have a question or an enquiry? We would love to hear from you.</p>
+    <form name = "Contact" onsubmit = "return contactReturn()">
+      <p><input class id = "nameContact" placeholder = "Name" type = "text" name = "Name"/></p>
+      <p><input class id = "emailContact"  placeholder = "Email" type = "email" name = "Email"/></p>
+      <p><input class id = "phoneContact"  placeholder = "Phone" type = "tel" pattern = "[0-9]{10}" name = "Phone"/></p>
+      <p><textarea placeholder = "Please enter your message" name = "Message"></textarea></p>
+      <p><input class = "formButton" type = "submit" value = "Send Message" name="Submit"/></p>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id = "footer">Mind Over Matter &copy 2021</p>
+    <br>
+    <script src = "script.js"></script><!-- Have put this at the bottom to increase webpage load time-->
+
+  </body>
+
+</html>
